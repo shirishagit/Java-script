@@ -4,3 +4,23 @@ const student ={
     gpa:9.3,
     isPass : true,
 };
+console.log(student)
+
+
+const product = {
+    title:"ballpen",
+    rating:4,
+    offer:5,
+    price:270,
+};
+console.log(product)
+
+
+const userid ={
+    username:"@ninesai",
+    isfollow:true,
+    followers:12,
+    following:10,
+    
+};
+console.log(userid)
