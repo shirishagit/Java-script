@@ -23,4 +23,4 @@ const userid ={
     following:10,
     
 };
-console.log(userid)
+console.log(typeof userid["isfollow"])
