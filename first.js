@@ -36,3 +36,4 @@ console.log("a * b =",a * b);
 console.log("a / b =",a / b);
 console.log("a % b =",a % b); //remainder 1
 console.log("a ** b =",a ** b); // 25 a to the power of b
+
