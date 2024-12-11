@@ -29,15 +29,10 @@ console.log(typeof userid["username"])
 //Arthimetic operations
 let a = 5;
 let b = 2;
-console. log("a = ",a, "& b =",b);
+console. log("a = ", a ," & b = ",b);
 console.log("a + b =",a + b);
 console.log("a - b =",a - b);
 console.log("a * b =",a * b);
 console.log("a / b =",a / b);
-
-//assignment operators
-let c = 5;
-let d = 2;
-
-c **=4;
-console.log("c =", c);
+console.log("a % b =",a % b); //remainder 1
+console.log("a ** b =",a ** b); // 25 a to the power of b
