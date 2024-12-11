@@ -43,5 +43,6 @@ let c = 5;
 let d = 2;
 
 console.log("c =" , c, " & d =", d);
-console.log(" ++c = ",++c) //6
+console.log(" c++ = ",c++) 
+console.log(c)//6
 
