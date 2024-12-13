@@ -46,11 +46,9 @@ console.log("c =" , c, " & d =", d);
 console.log("c++ = ",c++);
 console.log(c)//6
 
-// //decrement
-// console.log("--d = ",--d,)//1
-// console.log("d-- =",d--)
-// console.log(d--)//1
+//decrement
+console.log("--d = ",--d,)//1
+console.log("d-- =",d--)
+console.log(d--)//1
 
-let e = 5;
-let f = 4;
-console.log(e)
+
