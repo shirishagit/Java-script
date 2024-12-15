@@ -51,7 +51,7 @@ console.log("--d = ",--d,)//1
 console.log("d-- =",d--)
 console.log(d--)//1
 
-compasion operators
+//compasion operators
 
 let a = 5
 let b = 2
@@ -65,7 +65,7 @@ console.log("5 < 2" , a < b) // false
 console.log("5 >= 2" , a >=b) // true
 console.log("5 <= 2" , a <=b) // false
 
-logical operators
+//logical operators
 let a = 6;
 let b = 5;
 
@@ -122,3 +122,21 @@ if(num %3 === 0){
 }else{
     console.log(" is not multiple of 3");
 }
+
+//home work problem
+
+let score =33;
+let gread;
+if(score >=90 && score <=100){
+    gread="A";
+}else if(score >= 70 && score <= 89)
+{
+    gread="B";
+}else if(score >= 50 && score <= 69)
+{
+    gread="C";
+}else if(score >= 0 && score <= 49)
+{
+    gread="C";
+};
+console.log("according to your score , your score was",gread)
