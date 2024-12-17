@@ -41,5 +41,6 @@ let student = {
     cgpa:9.3,
     ispass:true,
 };
-for(let key in student);
+for(let key in student){
 console.log(key);
+}
