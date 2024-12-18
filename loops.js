@@ -44,3 +44,22 @@ let student = {
 for(let key in student){
 console.log(key);
 }
+
+//loops practice questions
+//1qs
+
+for(let num=0;num<=100;num++){
+    if(num%2 ===0){
+        console.log(num)
+    };
+   }
+
+
+   //2qs
+   let gameNum=30;
+   let userNum = prompt("Guess the number");
+
+   while(userNum !=gameNum){
+    userNum = prompt("you entred the wrong number guess agagin :");
+   }
+   console.log("congrats you won the game ")
