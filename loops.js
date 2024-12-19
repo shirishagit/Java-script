@@ -63,3 +63,13 @@ for(let num=0;num<=100;num++){
     userNum = prompt("you entred the wrong number guess agagin :");
    }
    console.log("congrats you won the game ")
+
+   //strings
+   let obj = {
+    item : "pen",
+    price: 10,
+   };
+
+
+let output = `The cost of ${obj.item} is ${obj.price} rupess`;
+console.log(output)  // template literals
