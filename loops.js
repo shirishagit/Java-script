@@ -56,13 +56,13 @@ for(let num=0;num<=100;num++){
 
 
    //2qs
-   let gameNum=30;
-   let userNum = prompt("Guess the number");
+//    let gameNum=30;
+//    let userNum = prompt("Guess the number");
 
-   while(userNum !=gameNum){
-    userNum = prompt("you entred the wrong number guess agagin :");
-   }
-   console.log("congrats you won the game ")
+//    while(userNum !=gameNum){
+//     userNum = prompt("you entred the wrong number guess agagin :");
+//    }
+//    console.log("congrats you won the game ")
 
    //strings
    let obj = {
@@ -73,3 +73,8 @@ for(let num=0;num<=100;num++){
 
 let output = `The cost of ${obj.item} is ${obj.price} rupess`;
 console.log(output)  // template literals
+
+//escape characters
+
+let sentence = "This is a \nnodeJavascript code practice"
+console.log(sentence)
