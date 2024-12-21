@@ -55,14 +55,14 @@ for(let num=0;num<=100;num++){
    }
 
 
-   //2qs
-//    let gameNum=30;
-//    let userNum = prompt("Guess the number");
+//    2qs
+   let gameNum=30;
+   let userNum = prompt("Guess the number");
 
-//    while(userNum !=gameNum){
-//     userNum = prompt("you entred the wrong number guess agagin :");
-//    }
-//    console.log("congrats you won the game ")
+   while(userNum !=gameNum){
+    userNum = prompt("you entred the wrong number guess agagin :");
+   }
+   console.log("congrats you won the game ")
 
    //strings
    let obj = {
@@ -76,5 +76,33 @@ console.log(output)  // template literals
 
 //escape characters
 
-let sentence = "This is a \nnodeJavascript code practice"
+let sentence = "This is a \nJavascript code practice"
 console.log(sentence)
+
+
+//strings methods
+//uppercase
+
+let str = "All the Best";
+str = str.toUpperCase();
+console.log(str);
+
+let str = "   My i Help   you   ";
+console.log(str.trim()); //remover the spaces at starting and ending
+
+
+let str1="This are ";
+let str2 = "strings";
+console.log(str1+str2); //joins strings
+
+let str = "shirisha";
+console.log(str.replace("shir","man")); //replaces a part of string
+
+
+
+// practice ques
+
+
+let fullName = prompt("Please Enter Your fullName");
+let userName="@"+fullName+fullName.length;
+console.log(userName);
