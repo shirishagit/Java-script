@@ -1,6 +1,6 @@
 function first(a,b) {
     console.log("sub = " + (a-b))
-return a*b;
+return a-b;
 }
 
 const sub =first(30,20);
@@ -14,5 +14,7 @@ function sum(x,y){            //x and y are the parameters they are block of cod
 }
 sum(20,30);               //50
 sum(80,90);              // 170
+let ans =sum(3,5);
+console.log(ans)
 
 
