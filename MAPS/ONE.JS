@@ -20,3 +20,12 @@ console.log(val);                    // SEPT 2 TO WRITE MAP FUNCTION OR HIGHER O
 
 
 
+const students=[
+    {Name:"Shirisha", rollNo:1,age:21},
+    {Name:"Snehitha",rollNo:2,age:20},
+    {Name:"Arjun",rollNo:3,age:20},
+    {Name:"raviteja",rollNo:4,age:20},
+];
+
+const list = students.map((x) => x.Name+x.age);
+console.log(list);
