@@ -28,5 +28,5 @@ const students=[
 ];
 
 
-const list=students.filter((x)=>x.age > 18);
+const list=students.filter((x)=>x.age > 18).map((x)=>x.Name);
 console.log(list);
