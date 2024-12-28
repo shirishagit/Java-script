@@ -16,3 +16,21 @@ console.log(class1);
 
 let para = document.getElementsByTagName("p");
 console.dir(para);
+
+
+//QUERY SELECTOR
+
+// IF YOU WANT TO ACCESS ALL ELEMENTS IN ONE METHOD YOU CAN USE QUERY SELECTOR
+// 1. THIS RETURNS FIRST ELEMENT OF THE ID,CLASS,TAG.
+// you neet to use # for id and (.)for class]
+
+let firstElement = document.querySelector(".class1");
+console.dir(firstElement);
+
+//IF YOU WANT TO ACCESS ALL ELEMENTS OF ID, CLASS, AND TAGS YOU CAN USE
+//2. ALL QUERY SELECTOR IT RETURNS ALL THE TAGS AND CLASSESS AND IDS
+
+
+let allElements = document.querySelectorAll("label");
+console.dir(allElements);
+
