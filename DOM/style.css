@@ -11,3 +11,12 @@ h1{
  border-radius: 10px;
 
 }
+.box{
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+    border: 2px solid black;
+    margin: 5px;
+    text-align: center;
+
+}

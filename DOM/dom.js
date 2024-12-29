@@ -34,3 +34,22 @@ console.dir(firstElement);
 let allElements = document.querySelectorAll("label");
 console.dir(allElements);
 
+
+//practice 
+
+let h4= document.querySelector("h4");
+console.dir(h4.innerText);
+h4.innerText = h4.innerText +` in todays class`
+
+
+let divs = document.querySelectorAll(".box");
+
+let idx=1;
+for(let div of divs){
+    div.innerText = `new value ${idx}`
+    idx++
+}
+console.dir(divs);
+
+
+//
