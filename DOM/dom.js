@@ -5,7 +5,7 @@ console.dir(button);
 
 
 
-//IF YOU WANT TO ACCESS A GROUP OG ELEMENT WITH SAME FEATURES YOU CAN USE CLASS
+//IF YOU WANT TO ACCESS A GROUP OG ELEMENT WITH SAME FEATURES YOU CAN USE CLASSNAME
 let class1 = document.getElementsByClassName("class1");
 console.dir(class1);
 console.log(class1);
@@ -114,3 +114,4 @@ div.prepend(newhead);                               // adds the element inside t
 
 // let deleteEle = document.querySelector("h1");
 // heading.remove();                             // 
+
