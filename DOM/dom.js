@@ -1,6 +1,6 @@
  //IF YOU WANT TO ACCESS THE ELEMENT BY ITS ID HERE IS THE EXAMPLE
  
-let button=document.getElementById("button");   
+let button = document.getElementById("button");   
 console.dir(button);
 
 
@@ -52,4 +52,65 @@ for(let div of divs){
 console.dir(divs);
 
 
-//
+//YOU CAN ALSO ASSCESS THE ATTERIBUTES IN THE HTML
+// TO ACCESS THE ATTREBUTER
+
+let apara = document.querySelector("p")
+console.log(apara.getAttribute("class"));
+
+
+//YOU CAN ALSO CHANGE THE VALUE OF THE ATTRIBUTE
+
+let change = document.querySelector("p");
+console.log(change);
+let one = change.setAttribute("class","newone");
+console.log(one);
+
+// IF THE NODE ID EMPTY YOU CAN FIRST ACCESS THE ELEMENT AND GIVE THE AN ATTRIBUT 
+// AND THEN YOU CAN ACCESS THE ATTREBUTE
+
+let div = document.querySelector("div");
+console.log(div);
+
+let val = div.setAttribute("id","new");
+console.log(val);
+
+let my = div.getAttribute("id");
+ console.log(my);
+
+ //IF YOU WANT TO CHANGE THE STYLE OF THE ELEMENT 
+ //HERE WE DID NOT GAVE ID TO THE ELEMENT IN HTME BUT WE GAVE IT IN JAVASCRIPT SO BY
+// USING JAVASCRIPT ID WE CAN STYLE IT 
+
+ let box = document.querySelector("div");
+ div.style.color ="red";
+ div.style.background ="lightpink"
+ div.style.fontStyle = "italic"
+ div.style.fontSize = "22px"
+
+
+ //IF YOU WANT TO INSERT AN ELEMENT IN THE HTML
+
+let newBtn = document.createElement("button");
+console.log(newBtn);
+newBtn.innerText=`click it`;
+
+let firstDiv = document.querySelector("div");
+div.append(newBtn);                               // adds element inside the node at end
+
+
+let newhead = document.createElement("h4");
+console.log(newhead);
+newhead.innerText=`rupess`;
+
+let heading = document.querySelector("div");
+div.prepend(newhead);                               // adds the element inside the node at starting
+                                             // IF YOU USE AFTER AND BEFORE METHODS SAME AS APPEND AND PERPEND
+                                             // THE ELEMENT IS ADDED AFTER THE NODE OUTSIDE IS AFTER
+                                             // THE ELEMENT IS ADDED BEFORE THE NODE OUTSIDE IS BEFORE
+
+
+// IF YOU WANT TO DELETE ANY NODE YOU CAN USE THIS METHOD
+
+// let deleteEle = document.querySelector("h1");
+// heading.remove();                             // 
