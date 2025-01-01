@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navBar{
+    padding: 30px;
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+
+}
+.navBar ul{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.form{
+    padding: 30px;
+    font-size: 30px;
+    
+
+}
+
+#name{
+    height: 30px;
+    width: 200px;
+    border-color: black;
+    border-radius: 6px;
+    
+}
+#E-mail{
+    height: 30px;
+    width: 200px;
+    border-color: black;
+    border-radius: 6px;
+    
+}
+#Password{
+    height: 30px;
+    width: 200px;
+    border-color: black;
+    border-radius: 6px;
+    
+}
+#Btn{
+    padding: 5px;
+
+    height: 30px;
+    width: 100px;
+    background-color: white;
+    border-radius: 6px;
+   border-color: black;
+   background-color: forestgreen;
+}
