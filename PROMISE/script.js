@@ -24,7 +24,7 @@ let newpromise = ()=>{
      setTimeout (()=>{
           console.log("The code will execute after 5s")
           resolve("siri");
-     } ,5000)
+     } ,1000)
 
 
 });
@@ -35,3 +35,33 @@ Resolve.then((res)=>{
      console.log("successfully",res)
 });
 
+
+
+//PROMISE CHAINING
+
+
+let companyData = ()=>{
+     return new Promise ((resolve,reject)=>{
+          setTimeout(()=>{
+               console.log("loading data 1")
+               resolve("done by developer")
+          } , 3000)
+     });
+};
+let companyData1 = ()=>{
+     return new Promise ((resolve,reject)=>{
+          setTimeout(()=>{
+               console.log("loading data 2")
+               resolve("done by developer")
+          } , 3000)
+     });
+};
+
+
+
+companyData().then((res)=>{
+   console.log("next data is loading",res);
+  companyData1().then((res)=>{
+   console.log("next data is loading",res);
+});
+});
